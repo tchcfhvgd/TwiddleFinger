@@ -58,7 +58,7 @@ jobs:
           haxelib install flixel-ui
           haxelib install flixel-addons
           haxelib install tjson
-          haxelib install hxvlc 1.7.1
+          haxelib install hxvlc 1.5.4
           haxelib install hxjsonast
           haxelib install hscript
           haxelib git flxanimate https://github.com/beihu235/flxanimate
@@ -76,7 +76,7 @@ jobs:
           haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime config ANDROID_SETUP true
           haxelib set openfl 9.3.4
-          haxelib set hxvlc 1.7.1
+          haxelib set hxvlc 1.5.4
       
       - name: Compile
         run: haxelib run lime build android
